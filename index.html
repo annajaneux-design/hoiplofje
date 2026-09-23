@@ -239,7 +239,7 @@ footer .brand{color:#FFFFFF;}
 .nav-right{display:flex; align-items:center; gap:20px;}
 .nav-link{font-weight:600; font-size:.95rem; text-decoration:none; color:#FFFFFF;}
 .nav-link:hover{color:#FFB266;}
-@media (max-width:860px){ .nav-link:not([href="#about"]){display:none;} }
+@media (max-width:860px){ .nav-link{display:none;} .nav-cta-sub{display:none;} }
 .about-hero{padding:64px 0 32px;}
 .about-hero-grid{display:grid; grid-template-columns:1.3fr .7fr; gap:48px; align-items:center;}
 .about-hero h1{font-size:clamp(2.2rem,4.4vw,3.4rem); letter-spacing:-0.01em;}
@@ -292,7 +292,7 @@ header.site a:focus-visible, footer a:focus-visible{outline-color:#FFB266;}
     <a class="nav-link" href="#inburgering">Inburgering</a>
     <a class="nav-link" href="#faq">FAQ</a>
     <a class="nav-link" href="#about">About</a>
-    <a class="nav-cta" href="https://app.hoiplofje.nl/">Start practicing, it's free</a></div>
+    <a class="nav-cta" href="https://app.hoiplofje.nl/">Start practicing<span class="nav-cta-sub">, it's free</span></a></div>
   </nav>
 </header>
 
