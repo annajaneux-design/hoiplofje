@@ -298,6 +298,28 @@ header.site a:focus-visible, footer a:focus-visible{outline-color:#FFB266;}
 @media (max-width:960px){ .levels{grid-template-columns:repeat(2,1fr);} }
 @media (max-width:860px){ .learn-points{grid-template-columns:1fr; gap:22px; margin-top:32px;} }
 @media (max-width:520px){ .levels{grid-template-columns:1fr;} }
+
+/* Privacy policy page */
+.pp{max-width:760px; margin:0 auto; padding:48px 24px 72px; font-size:16px; line-height:1.65;}
+@media (max-width:420px){ .pp{padding:32px 16px 56px;} }
+.pp h1{font-size:clamp(32px,6vw,44px); line-height:1.15; margin:0 0 8px;}
+.pp h2{font-size:1.4rem; line-height:1.2; margin:48px 0 12px; scroll-margin-top:88px;}
+.pp h3{font-size:1.06rem; line-height:1.2; margin:24px 0 6px;}
+.pp p{margin:0 0 12px;}
+.pp a{color:var(--accent-ink); text-underline-offset:2px;}
+.pp .updated{color:var(--ink-soft); margin:0 0 28px;}
+.pp .intro{background:var(--bg-alt); border-left:4px solid var(--accent); border-radius:10px; padding:16px 20px;}
+.pp .intro p{margin:0;}
+.pp nav.toc{margin:32px 0 0; padding:20px 22px; border:1px solid var(--line); border-radius:18px;}
+.pp nav.toc strong{font-family:'Space Grotesk',sans-serif;}
+.pp nav.toc ol{margin:8px 0 0; padding-left:20px; columns:2; column-gap:32px;}
+.pp nav.toc li{break-inside:avoid;}
+@media (max-width:560px){ .pp nav.toc ol{columns:1;} }
+.pp ul{padding-left:20px; margin:0 0 12px;} .pp li{margin:4px 0;}
+.pp .table-wrap{overflow-x:auto; margin:12px 0;}
+.pp table{border-collapse:collapse; width:100%; font-size:15px;}
+.pp th,.pp td{text-align:left; vertical-align:top; padding:10px 12px; border-bottom:1px solid var(--line);}
+.pp th{font-family:'Space Grotesk',sans-serif; font-weight:600; background:var(--bg-alt);}
 </style>
 </head>
 <body>
@@ -743,6 +765,153 @@ header.site a:focus-visible, footer a:focus-visible{outline-color:#FFB266;}
   </section>
 </main>
 
+<main id="page-privacy" hidden>
+  <div class="pp">
+  <h1 class="pp-title">Privacy Policy</h1>
+  <p class="updated">Last updated: 22 October 2026</p>
+
+  <div class="intro">
+    <p>Hoi Plofje helps you learn Dutch with an AI coach. To do that we need some information about you and how you practise. We only collect what we need to run the app. We never sell your data, and we don't show ads. This policy explains what we collect, why, and how you can control it. It applies to the Hoi Plofje web app (app.hoiplofje.nl), our Android and iOS apps, and this website.</p>
+  </div>
+
+  <nav class="toc" aria-label="Contents">
+    <strong>Contents</strong>
+    <ol>
+      <li><a href="#pp-who">Who we are</a></li>
+      <li><a href="#pp-collect">What we collect</a></li>
+      <li><a href="#pp-use">How we use it</a></li>
+      <li><a href="#pp-ai">Your AI coach</a></li>
+      <li><a href="#pp-share">Who we share it with</a></li>
+      <li><a href="#pp-transfers">International transfers</a></li>
+      <li><a href="#pp-retention">How long we keep it</a></li>
+      <li><a href="#pp-delete">Deleting your account</a></li>
+      <li><a href="#pp-rights">Your rights</a></li>
+      <li><a href="#pp-cookies">Cookies</a></li>
+      <li><a href="#pp-children">Children</a></li>
+      <li><a href="#pp-security">Security</a></li>
+      <li><a href="#pp-changes">Changes to this policy</a></li>
+      <li><a href="#pp-contact">Contact us</a></li>
+    </ol>
+  </nav>
+
+  <h2 id="pp-who">1. Who we are</h2>
+  <p>Hoi Plofje is an independent project made by Anna, a fellow expat living in the Netherlands. Anna is the data controller for the personal data described in this policy. In this policy, "we" and "us" mean Hoi Plofje.</p>
+  <p>Questions about privacy? Email <a href="mailto:support@hoiplofje.nl">support@hoiplofje.nl</a>.</p>
+
+  <h2 id="pp-collect">2. What we collect</h2>
+
+  <h3>Information you give us</h3>
+  <ul>
+    <li><strong>Account details:</strong> your email address, name or display name, and password (stored encrypted).</li>
+    <li><strong>Learning profile:</strong> your Dutch level, your learning goals (for example the inburgering or MVV exam), your chosen AI coach, and your preferences.</li>
+    <li><strong>Your practice work:</strong> your level check results, your answers to exercises, and the texts you write.</li>
+    <li><strong>Voice input:</strong> when you do a speaking exercise, we use your microphone to record what you say so we can give you feedback. We only use the microphone when you start a speaking exercise and allow access.</li>
+    <li><strong>Chats with your AI coach:</strong> the messages you send to your coach and the replies it gives.</li>
+    <li><strong>Friends and challenges:</strong> the friends you add, the challenges you join, and your results in those challenges.</li>
+    <li><strong>Messages to support:</strong> anything you send us by email.</li>
+  </ul>
+
+  <h3>Information collected automatically</h3>
+  <ul>
+    <li><strong>Progress and activity:</strong> which lessons and exercises you complete, your streaks, your vocabulary review schedule, and when you use the app.</li>
+    <li><strong>Technical data:</strong> device type, operating system, browser, app version, IP address, language settings, and error logs. We use this to keep the app working and secure.</li>
+    <li><strong>Session recordings:</strong> our app platform, Base44, records how people use the app, such as the screens you visit, where you tap or click, and how you scroll. We use these recordings to find bugs and improve the app. We only record your sessions if you say yes in our cookie banner. Everything you type is hidden and replaced with asterisks (*), so we can't see your answers, messages, or passwords. Sound is never recorded.</li>
+  </ul>
+  <p>We do not collect your precise location, contacts, photos, or payment details. You can't upload photos or files to Hoi Plofje.</p>
+
+  <h2 id="pp-use">3. How we use your information</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Purpose</th><th>Legal basis (GDPR)</th></tr></thead>
+    <tbody>
+      <tr><td>Create and run your account, save your progress, and show you the right lessons for your level</td><td>Performance of our agreement with you</td></tr>
+      <tr><td>Give feedback on your writing and speaking, and let your AI coach answer you</td><td>Performance of our agreement with you</td></tr>
+      <tr><td>Let you add friends and do challenges together</td><td>Performance of our agreement with you</td></tr>
+      <tr><td>Send you service emails (sign-in, password reset, important changes)</td><td>Performance of our agreement with you</td></tr>
+      <tr><td>Send you practice reminders or news</td><td>Your consent. You can turn this off at any time.</td></tr>
+      <tr><td>Fix bugs, prevent abuse, and keep the app secure</td><td>Our legitimate interest in a safe, working app</td></tr>
+      <tr><td>Watch session recordings to understand where people get stuck</td><td>Your consent, given in the cookie banner. You can withdraw it at any time.</td></tr>
+      <tr><td>Improve lessons and exercises, using combined statistics where possible</td><td>Our legitimate interest in making the app better</td></tr>
+      <tr><td>Meet legal obligations</td><td>Legal obligation</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>We don't use your data for advertising, and we don't make automated decisions about you that have legal or similarly significant effects.</p>
+
+  <h2 id="pp-ai">4. Your AI coach</h2>
+  <p>Your coach's replies, and the feedback on your writing and speaking, are generated by AI models from third-party providers. To create a reply, we send your message, and the context the coach needs, such as your level and recent exercise, to that provider. The providers we use are not allowed to use your data to train their models.</p>
+  <p>AI feedback can sometimes be wrong. Please don't share sensitive personal information with your coach, such as health details, ID numbers, or details about your immigration case. The coach doesn't need them to help you practise Dutch.</p>
+
+  <h2 id="pp-share">5. Who we share your information with</h2>
+  <p>We never sell your personal data. We share it only with:</p>
+  <ul>
+    <li><strong>Service providers that run the app for us:</strong> hosting, database, sign-in and session recordings (Base44), AI model providers for the coach and feedback, and our email provider. They may only use your data to provide their service to us, under a data processing agreement.</li>
+    <li><strong>App stores:</strong> if you use our Android or iOS app, Google and Apple process some data under their own privacy policies.</li>
+    <li><strong>Your friends in the app:</strong> people you add as friends can see your display name and your progress in shared challenges. They can't see your chats with your coach or your written answers.</li>
+    <li><strong>Authorities:</strong> if the law requires it, or to protect the rights and safety of our users or others.</li>
+    <li><strong>A new owner:</strong> if Hoi Plofje is ever merged or sold. This policy will keep protecting your data, and we will tell you first.</li>
+  </ul>
+
+  <h2 id="pp-transfers">6. International transfers</h2>
+  <p>Some of our service providers are located outside the European Economic Area, for example in the United States. When your data leaves the EEA, we protect it with safeguards approved by the European Commission. These include the EU–US Data Privacy Framework and Standard Contractual Clauses.</p>
+
+  <h2 id="pp-retention">7. How long we keep your information</h2>
+  <ul>
+    <li><strong>Account and learning data:</strong> as long as your account is active.</li>
+    <li><strong>Voice recordings:</strong> only as long as we need them to give you feedback. We don't keep them after that.</li>
+    <li><strong>Inactive accounts:</strong> if you don't sign in for 24 months, we'll email you. If you still don't sign in, we delete your account.</li>
+    <li><strong>After you delete your account:</strong> we remove your personal data within 30 days. Backups are fully cleared within 90 days. We may keep some data longer only if the law requires it.</li>
+    <li><strong>Support emails:</strong> up to 2 years after your question is resolved.</li>
+  </ul>
+
+  <h2 id="pp-delete">8. Deleting your account</h2>
+  <p>You can delete your account and all data linked to it at any time:</p>
+  <ul>
+    <li><strong>In the app:</strong> open <em>My profile</em>, scroll to the bottom of the page and tap <em>Delete account</em>.</li>
+    <li><strong>By email:</strong> send a request from your account's email address to <a href="mailto:support@hoiplofje.nl?subject=Delete%20my%20account">support@hoiplofje.nl</a> with the subject "Delete my account". We'll confirm within 30 days.</li>
+  </ul>
+  <p>When you delete your account, we delete your profile, progress, practice work, coach chats, friends, and challenge history. If you only want some data removed, for example your coach chats, email us and we'll help.</p>
+
+  <h2 id="pp-rights">9. Your rights</h2>
+  <p>Under the GDPR you have the right to:</p>
+  <ul>
+    <li>see the personal data we hold about you and get a copy</li>
+    <li>correct data that is wrong</li>
+    <li>have your data deleted</li>
+    <li>restrict or object to how we use your data</li>
+    <li>receive your data in a portable format</li>
+    <li>withdraw your consent at any time, for example for reminder emails</li>
+  </ul>
+  <p>To use any of these rights, email <a href="mailto:support@hoiplofje.nl">support@hoiplofje.nl</a>. We'll reply within one month. If you're unhappy with how we handle your data, you can also complain to the Dutch Data Protection Authority, the <a href="https://autoriteitpersoonsgegevens.nl" rel="noopener">Autoriteit Persoonsgegevens</a>.</p>
+
+  <h2 id="pp-cookies">10. Cookies and local storage</h2>
+  <p>Cookies and local storage are small files saved on your device. We use two kinds:</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Type</th><th>What it does</th><th>Do we ask first?</th></tr></thead>
+    <tbody>
+      <tr><td>Necessary</td><td>Keeps you signed in, keeps the app secure, and remembers your settings and your cookie choice.</td><td>No. The app can't work without these.</td></tr>
+      <tr><td>Session recordings</td><td>Lets Base44 record how you use the app (see section 2) so we can find bugs and improve it.</td><td>Yes. Only if you choose "Accept all" or switch them on.</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>The first time you open the app, we ask for your choice. You can accept all cookies, reject all cookies except the necessary ones, or choose for yourself. Saying no doesn't limit what you can do in the app. You can change your mind at any time: open <em>My profile</em> and tap <em>Cookie settings</em> at the bottom of the page. We ask you again every 12 months, or sooner if we change the cookies we use.</p>
+  <p>This website (hoiplofje.nl) doesn't use cookies. We don't use advertising or cross-site tracking cookies anywhere.</p>
+
+  <h2 id="pp-children">11. Children</h2>
+  <p>Hoi Plofje is made for adults. You must be at least 16 years old to create an account. We don't knowingly collect data from children under 16. If you think a child has created an account, email us and we'll delete it.</p>
+
+  <h2 id="pp-security">12. Security</h2>
+  <p>We protect your data with encrypted connections (HTTPS), encrypted password storage, and access controls. Only people who need access to run Hoi Plofje have it. No online service can be 100% secure. If a data breach puts your rights at risk, we'll inform you and the authorities as the law requires.</p>
+
+  <h2 id="pp-changes">13. Changes to this policy</h2>
+  <p>We may update this policy when the app changes. The date at the top always shows the latest version. If we make important changes, we'll let you know in the app or by email before they take effect.</p>
+
+  <h2 id="pp-contact">14. Contact us</h2>
+  <p>For any question about your privacy or this policy, email <a href="mailto:support@hoiplofje.nl">support@hoiplofje.nl</a>.</p>
+</div>
+</main>
+
 <footer>
   <div class="wrap foot-row">
     <div class="brand"><img class="dot" src="data:image/webp;base64,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" alt="Hoi Plofje logo: Plofje the sheep cheering">Hoi Plofje</div>
@@ -750,6 +919,7 @@ header.site a:focus-visible, footer a:focus-visible{outline-color:#FFB266;}
       <a href="https://app.hoiplofje.nl/">Start learning</a>
       <a href="#about">About</a>
       <a href="mailto:support@hoiplofje.nl">Contact</a>
+      <a href="#privacy">Privacy</a>
     </div>
   </div>
   <div class="wrap">
@@ -816,19 +986,28 @@ header.site a:focus-visible, footer a:focus-visible{outline-color:#FFB266;}
 </script>
 <script>
 (function(){
-  var home=document.getElementById('page-home'), about=document.getElementById('page-about');
+  var home=document.getElementById('page-home'), about=document.getElementById('page-about'), privacy=document.getElementById('page-privacy');
   var baseTitle=document.title;
+  var md=document.querySelector('meta[name=description]');
+  var baseDesc=md.content;
   function route(){
     var hash=location.hash;
-    var isAbout = hash==='#about';
-    home.hidden=isAbout; about.hidden=!isAbout;
-    document.title = isAbout ? 'About Hoi Plofje: built by an expat, for expats' : baseTitle;
-    var md=document.querySelector('meta[name=description]');
-    if(!md.dataset.home) md.dataset.home=md.content;
-    md.content = isAbout ? 'Hoi Plofje was built by Anna, an expat in the Netherlands who wanted a personal coach for learning Dutch that every newcomer can use for free.' : md.dataset.home;
-    if(isAbout || hash==='#home' || hash===''){ window.scrollTo(0,0); return; }
-    var el=document.getElementById(hash.slice(1));
-    if(el) el.scrollIntoView();
+    var target=hash.length>1 ? document.getElementById(hash.slice(1)) : null;
+    var page='home';
+    if(hash==='#about') page='about';
+    else if(hash==='#privacy' || (target && privacy.contains(target))) page='privacy';
+    home.hidden=page!=='home'; about.hidden=page!=='about'; privacy.hidden=page!=='privacy';
+    if(page==='about'){
+      document.title='About Hoi Plofje: built by an expat, for expats';
+      md.content='Hoi Plofje was built by Anna, an expat in the Netherlands who wanted a personal coach for learning Dutch that every newcomer can use for free.';
+    } else if(page==='privacy'){
+      document.title='Privacy Policy | Hoi Plofje';
+      md.content='How Hoi Plofje collects, uses and protects your personal data.';
+    } else {
+      document.title=baseTitle; md.content=baseDesc;
+    }
+    if(hash==='#about' || hash==='#privacy' || hash==='#home' || hash===''){ window.scrollTo(0,0); return; }
+    if(target) target.scrollIntoView();
   }
   window.addEventListener('hashchange', route);
   route();
